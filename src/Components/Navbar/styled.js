@@ -46,8 +46,17 @@ export const Img = styled.img`
   color: black;
 `;
 export const activeStyle = ({ isActive }) => {
-    return {
-      textDecoration: "none",
-    };
+  return {
+    textDecoration: "none",
   };
-  
+};
+
+export const NavSort = styled.div`
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 40px;
+  gap: 20px;
+`;

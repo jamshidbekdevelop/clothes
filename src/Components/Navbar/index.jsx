@@ -10,6 +10,7 @@ import {
   InputDiv,
   Nav,
   Navs,
+  NavSort,
   Search,
 } from "./styled";
 const Navbar = () => {
@@ -39,7 +40,18 @@ const Navbar = () => {
           })}
         </Navs>
       </Nav>
-      
+      <NavSort>
+        <Text size={13}>NEW</Text>
+        <Text size={13}>DESIGNERS</Text>
+        <Text size={13}>CLOTHES</Text>
+        <Text size={13}>SHOES</Text>
+        <Text size={13}>ACCESSORIES</Text>
+        <Text size={13}>BEGS</Text>
+        <Text size={13}>JEWLERY</Text>
+        <Text size={13}>BEAUTY</Text>
+        <Text size={13}>EDITORIAL</Text>
+        <Text size={13}>SALE</Text>
+      </NavSort>
     </Container>
   );
 };
