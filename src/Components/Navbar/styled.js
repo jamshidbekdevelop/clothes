@@ -33,7 +33,7 @@ export const Input = styled.input`
   line-height: 15px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #000000;
+  color: black;
 `;
 export const Search = styled(search)``;
 export const Navs = styled.div`
